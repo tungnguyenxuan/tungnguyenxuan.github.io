@@ -1,0 +1,24 @@
+
+ /*làm thế nào phóng to logo*/
+
+.logo{ 
+		max-width: 800px
+
+		 }	 
+	 .dell{
+	 	float: left;
+	 	margin: 30px 50px;
+
+	 }
+p { height: 300px }	 
+
+a,a:link  { color: red;
+			 }
+a,a:visited  { color: grey;
+			 }				 
+a,a:hover { color: blue;
+			 }
+a,a:active  { color: green;
+			 }
+img:hover { border-radius: 50%
+			}		 	

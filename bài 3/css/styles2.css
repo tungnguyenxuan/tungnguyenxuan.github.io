@@ -1,0 +1,8 @@
+h2::after {
+	
+	content: " VND ";
+	 
+} 
+h2::before{
+	content: " Giá Bán "
+}
