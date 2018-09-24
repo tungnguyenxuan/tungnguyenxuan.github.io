@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+
+h1 {
+	margin: 30px 0 10px 0;
+	color: black;
+	font-size: 24px;
+
+}
+img	{
+	max-width: 100%;
+	
+}
+
+
+
+
+.wrap{
+	max-width: 1000px;
+	margin: auto;
+    }
+ .main-menu {
+ 	
+	padding: 25px;
+	font-size: 20px;
+	color: blue;
+	text-decoration: none;
+	text-align: center;
+
+}   
+a {
+	padding: 20px;
+	text-decoration: none;
+}
+a,a:link  { color: red;
+			 }
+a,a:visited  { color: grey;
+			 }				 
+a,a:hover { color: blue;
+			 }
+a,a:active  { color: green;
+			 }

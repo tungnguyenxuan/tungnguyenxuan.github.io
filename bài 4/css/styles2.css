@@ -1,0 +1,37 @@
+.box {
+	padding: 10px;
+	
+	float: left;
+	width: 33.3333%;
+	border: 1px solid red;
+	border-top-width: 5px; 
+} 
+.khachsan1 {
+	display: block; margin-left: auto; margin-right: auto;
+			}
+.info {
+
+	border-color: blue;
+}
+.info span{
+	color: blue;
+} 
+.khachsan2 {
+	display: block; margin-left: auto; margin-right: auto;
+			}
+.contact {
+	border-color: red;
+}
+.contact span{
+	color: red;
+}
+.khachsan3 {
+	display: block; margin-left: auto; margin-right: auto;
+			}
+.company {
+	border-color: green;
+}
+.company span {
+	color: green;
+}
+
