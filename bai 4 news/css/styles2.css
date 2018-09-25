@@ -1,0 +1,44 @@
+.box {
+	
+	padding: 10px;
+	
+	float: left;
+	width: 33.3333%;
+	border: 1px solid red;
+	border-top-width: 5px; 
+} 
+.khachsan1 {
+	display: block; margin-left: auto; margin-right: auto;
+
+			}
+.khachsan1:hover { border-radius: 50%
+			}		 				
+.info {
+
+	border-color: blue;
+}
+.info span{
+	color: blue;
+} 
+.khachsan2 {
+	display: block; margin-left: auto; margin-right: auto;
+			}
+.khachsan2:hover { border-radius: 50%
+			}				
+.contact {
+	border-color: red;
+}
+.contact span{
+	color: red;
+}
+.khachsan3 {
+	display: block; margin-left: auto; margin-right: auto;
+			}
+.khachsan3:hover { border-radius: 50%
+			}				
+.company {
+	border-color: green;
+}
+.company span {
+	color: green;
+}
