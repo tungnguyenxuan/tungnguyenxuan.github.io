@@ -1,0 +1,21 @@
+ .canhdep{
+
+	 	float: left;
+	 	width: 33.333%;
+	 	height:250px;
+	 	
+	 }
+.banner{
+		width: 1000px;
+}	 
+.footer {
+	text-align: center;
+}
+.dieuhuong {
+	background-color: #E5E5E5;
+	position: fixed;
+	right: 5px;
+	bottom: 4px;
+	max-width: 50px;
+
+}				
