@@ -49,15 +49,23 @@ h1 {
 	
 
 }
+.anh1 img { 
+			width: 323.33px;
+			height: 256px; }
+
+
+.anh2 img {
+			width: 323.33px;
+			height: 256px;}		
 .anh1 {
 		float: left;
 	 	width: 33.333%;
-	 	height: 248px;
+	 	
 	    }
 .anh2 {
 		float: left;
 	 	width: 33.333%;
-	 	height: 250px;
+	 	
 	 	overflow: hidden;
 	    }
 
