@@ -1,0 +1,71 @@
+
+*{
+	box-sizing: border-box;
+
+	
+}
+body {
+
+	background-color: black;
+	overflow-x: hidden;
+	
+
+}
+
+
+@keyframes title {
+		0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+
+
+h1 {
+	background-color: #E5E5E5;
+	margin: 25px 0px 10px 0;
+	font-size: 3em;
+	text-transform: uppercase;
+	text-align: center;
+	
+	animation: title 5s ease infinite;
+
+}
+.wrap{ 
+
+	
+	max-width: 1000px;
+	margin: auto;
+    }
+
+@keyframes anh {
+	from{opacity:0}
+	to{opacity:1}
+}
+img {max-width: 100%;
+	 height: auto;}
+
+.anh1 {
+
+	animation: anh 30s linear infinite;
+		   
+}
+@keyframes sign {
+	0% {right:178px; bottom:0px;}
+	50%{right:400px; bottom:0px;}
+	100%{right:600px;bottom:0px;}
+	from{opacity:1}
+	to{opacity:0}
+	}			
+
+.chuky{    
+
+		   color: red;
+		   position: absolute;
+		   right: 178px;
+		   bottom: 0px; 
+		   animation: sign 20s linear infinite;
+		   opacity: 1;
+		   
+			}	
