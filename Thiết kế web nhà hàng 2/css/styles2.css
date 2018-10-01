@@ -1,0 +1,63 @@
+
+html,body {
+		margin: 0; padding: 0;
+		   }
+
+*{
+	box-sizing: border-box;
+
+	
+}
+
+
+
+
+body {
+	
+	overflow-x: hidden;
+	background-color: #FFFFFF;
+
+}
+.wrap{
+	
+	max-width: 1000px;
+	margin: auto;
+    }
+   
+.anh1 img { 
+			width: 323.33px;
+			height: 256px; }
+
+
+.anh2 img {
+			width: 323.33px;
+			height: 256px;}			
+
+.anh1,.anh2 {
+	border: 1px solid #ddd;
+	cursor: pointer;
+	
+
+}
+.anh1 {
+		float: left;
+	 	width: 33.333%;
+	 	
+	    }
+.anh2 {
+		float: left;
+	 	width: 33.333%;
+	 	
+	 	overflow: hidden;
+	    }
+
+
+
+h2::after {
+	
+	content: " VND ";
+	 
+} 
+h2::before{
+	content: " Giá Bán "
+}

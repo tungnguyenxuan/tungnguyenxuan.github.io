@@ -1,0 +1,69 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+
+img	{
+	max-width: 100%;
+	
+}
+
+
+
+.wrap{
+
+	
+	max-width: 1000px;
+	margin: auto;
+    }
+ .main-menu ul  {
+ 	
+	
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	
+ 	background-color: none;
+ }
+ 
+ .main-menu ul li  {
+ 	color: blue;
+ 	display: inline-table;
+ 	width: 200px;
+ 	height: 40px;
+ 	position: relative;
+ 	line-height: 40px;
+ 	list-style-type: none;
+ 	top: 10px;
+ 	 
+} 
+.food li {
+	text-align: left;
+}
+.main-menu a {
+	text-decoration: none;
+}
+.food  {
+	display: none;
+	position: absolute;
+}
+.main-menu  li:hover .food {
+	display: block;
+}
+
+a,a:link  { color: red;
+			 }
+a,a:visited  { color: red;
+			 }				 
+a,a:hover { color: blue;
+			 }
+a,a:active  { color: green;
+			 }
