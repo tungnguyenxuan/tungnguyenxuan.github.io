@@ -1,0 +1,398 @@
+*{	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+.wrap {
+	position: relative;
+	max-width: 1000px;
+	background-color: white;
+	margin: auto;
+
+}
+
+img {
+	max-width: 100%;
+}
+#head a {
+	text-decoration: none;
+	margin: 20px;
+	font-family: Arial; 
+}
+
+#first {
+	border-right: solid;
+	border-left: solid;
+	border-color: red;
+	padding: 20px;
+	font-size: 15px ;
+
+
+}
+#second {
+	text-transform: uppercase;
+	font-size: 25px;
+
+}
+
+.right {
+	font-family: 10px;
+	margin:-20px;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+}
+a:link { 
+	color: black;
+}
+
+a:visited { 
+	color: black;
+}
+a:hover { 
+	color: red;
+}
+
+a:active { 
+	color: purple;
+}
+
+/*Đặt vị trí của ảnh*/
+.main img {
+
+
+	width: 25%;
+	height: 350px;
+	padding: 25px;
+	float: left;
+	margin-top: 50px;
+
+}
+
+
+#bieutuong {	
+	
+	position: absolute;
+	left:4px;
+	margin-top: 240px;
+	padding: 20px;
+	color: red;
+	
+}
+
+#bieutuong .fas {
+	padding-bottom:15px;
+	
+}
+#bieutuong {
+    opacity: 0;
+}
+.anh:hover #bieutuong {
+    opacity: 1;
+}
+
+.shop {
+	   width: 201px;
+    height: 25px;
+    background: pink;
+    color: white;
+}
+
+
+#note {	
+	
+	position: absolute;
+	left:254px;
+	margin-top: 240px;
+	padding: 20px;
+	color: red;
+}
+#note .fas {
+	padding-bottom:15px;
+	
+}
+
+#note {
+    opacity: 0;
+}
+.second:hover #note {
+    opacity: 1;
+}
+
+#camxuc {	
+	z-index: 1; 
+	position: absolute;
+	left:505px;
+	margin-top: 240px;
+	padding: 20px;
+	color: red;
+}
+#camxuc .fas {
+	padding-bottom:15px;
+	
+}
+
+#camxuc {
+    opacity: 0;
+}
+.third:hover #camxuc {
+    opacity: 1;
+}
+
+
+#ghichu {	
+	 
+	position: absolute;
+	left:754px;
+	margin-top: 240px;
+	padding: 20px;
+	color: red;
+}
+#ghichu .fas {
+	padding-bottom:15px;
+	
+}
+
+#ghichu {
+    opacity: 0;
+}
+.forth:hover #ghichu {
+    opacity: 1;
+}
+
+.section img:hover
+{
+	opacity:0.3;
+}
+
+
+
+.menu {
+	clear: both;
+} 
+.cloth p {
+	width: 25%;
+	display: inline;
+	padding-top:5px;
+	padding-left: 25px;
+	float: left;
+	color: blue;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.price p {
+	width: 25%;
+	display: inline;
+	padding-left: 25px;
+	float: left;
+	color:red;
+	font-weight: bold;
+
+}
+
+.price p::after {
+	content: "VND";
+	clear: both;
+	
+}
+
+
+.column {
+	margin-top: 50px;
+	position: relative;
+	float: left;
+	width: 33.3333%;
+	padding: 10px;
+}
+#new a {
+	text-decoration: none;
+	padding: 10px;
+
+
+}
+
+#new {
+
+	border-right: solid;
+	border-left: solid;
+	border-color: red;
+	padding: 5px;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 150px;
+}
+
+#Best a{
+	text-decoration: none;
+	padding: 10px;	
+}
+
+#Best {
+	border-right: solid;
+	border-left: solid;
+	border-color: red;
+	padding: 5px;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 180px;
+}
+
+#Staff a{
+	text-decoration: none;
+	padding: 10px;	
+}
+
+#Staff {
+	border-right: solid;
+	border-left: solid;
+	border-color: red;
+	padding: 5px;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 180px;
+}
+.menu 
+
+
+#dieuhuong .fa-arrow-left  {
+	position: absolute;
+	right: 58px;
+	margin-top:-33px;
+	padding: 5px;
+	border: groove;
+}
+
+#dieuhuong .fa-arrow-right {
+	position: absolute;
+	right: 31px;
+	margin-top:-33px;
+	padding: 5px;
+	border: groove;
+}
+
+#muiten .fa-arrow-left  {
+	position: absolute;
+	right: 58px;
+	margin-top:-33px;
+	padding: 5px;
+	border: groove;
+}
+
+
+#muiten .fa-arrow-right {
+	position: absolute;
+	right: 31px;
+	margin-top:-33px;
+	padding: 5px;
+	border: groove;
+}
+
+#traiphai .fa-arrow-left  {
+	position: absolute;
+	right: 58px;
+	margin-top:-33px;
+	padding: 5px;
+	border: groove;
+}
+
+#traiphai .fa-arrow-right {
+	position: absolute;
+	right: 31px;
+	margin-top:-33px;
+	padding: 5px;
+	border: groove;
+}
+
+#content {
+	
+	font-family: "Arial";
+	font-size: 16px;
+	
+	line-height: 27px;
+	
+}
+#content .noidung{
+	position: absolute;
+	left: 114px;
+	margin-top:-6px;
+	padding: 5px;
+	color: blue;
+}
+
+#content .giatien  {
+	position: absolute;
+	left: 115px;
+	margin-top:85px;
+	padding: 5px;
+	color: red;	
+}
+
+.star {
+	position: absolute;
+	left: 130px;
+	margin-top:110px;
+	padding: 5px;
+	font-size: 12px;
+	color: yellow;	
+}
+#content .chu{
+	position: absolute;
+	left: 114px;
+	margin-top:145px;
+	padding: 5px;
+	color: blue;
+}
+#content .gia  {
+	position: absolute;
+	left: 115px;
+	margin-top:235px;
+	padding: 5px;
+	color: red;	
+}
+.sao {
+	position: absolute;
+	left: 130px;
+	margin-top:260px;
+	padding: 5px;
+	font-size: 12px;
+	color: yellow;	
+}
+
+#content .viet{
+	position: absolute;
+	left: 114px;
+	margin-top:300px;
+	padding: 5px;
+	color: blue;
+}
+
+#content .dong  {
+	position: absolute;
+	left: 115px;
+	margin-top:385px;
+	padding: 5px;
+	color: red;	
+}
+
+.bac {
+	position: absolute;
+	left: 130px;
+	margin-top:415px;
+	padding: 5px;
+	font-size: 12px;
+	color: yellow;	
+}
+
+
+
+.column img{
+	display: block;
+	width: 90px;
+	height: 130px;
+	margin-bottom: 25px;
+}
