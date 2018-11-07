@@ -1,0 +1,48 @@
+body,html {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.wrap {
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 50px;
+	border: 2px solid red;
+	position: relative;
+}
+h1 {
+
+	text-align: center;
+	color: blue;
+}
+img {
+	float: left;
+	max-width: 30%;
+	margin: 5px 0px;
+}
+#p1 {
+	
+	
+	margin: 5px 5px;
+	text-align: justify;
+
+}
+#p2 {
+	margin: 5px 5px;
+	text-align: justify;
+
+}
+#p3 {
+	margin: 5px 5px;
+	text-align: justify;
+
+}
+.content {
+	
+	bottom: 0px;
+	left: 50px;
+}
+.changefont{
+	color: blue;
+
+}
