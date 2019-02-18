@@ -1,0 +1,224 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+img.anh  {
+    height: 382px;
+    transition: 0.4s;
+    cursor: pointer;
+   
+}
+
+.nenxanh {
+    width: 729.44px;
+    height: 382px;
+    background-image: -webkit-linear-gradient(45deg,#5433ff38, #20bdff54, #a5fecb5c);
+    position: absolute;
+    top: 0px;
+    transition: 0.4s;
+    left: 14px;
+    z-index: 1;
+    opacity: 0;
+    transition-delay: 0.1s;
+}
+
+.chuto h5 {
+	font-size: 30px;
+   	font-family: 'Sarabun', sans-serif;
+
+   	font-weight: 700;
+    position: absolute;
+ 
+    z-index: 4;
+    text-align: justify;
+    color: #ecf0f1;
+    
+    top: 250px;
+    left: 60px;
+    transition: 0.4s;
+    width: 75%;
+ 
+    text-transform: uppercase;
+}
+
+.chunho {
+	font-size: 15px;
+   	font-family: 'Sarabun', sans-serif;
+
+   	font-weight: 700;
+    position: absolute;
+ 
+    z-index: 4;
+    text-align: justify;
+    color: #ecf0f1;
+    
+    top: 370px;
+    left: 60px;
+    transition: 0.4s;
+    width: 75%;
+    opacity: 0;
+    
+	
+    text-transform: uppercase;
+}
+
+.to:hover .chuto h5{
+    transform: translateY(-30px);
+
+}
+
+.to:hover .nenxanh {
+    opacity: 1;
+}
+
+.to:hover .chunho {
+	opacity: 1;
+	transform: translateY(-40px);
+
+}
+
+ .swiper-container {
+
+      width: 100%;
+      
+    }
+    .swiper-slide {
+
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+		}
+
+#text {
+	left: 0px;
+	font-family: 'Sarabun', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #212121;
+	text-align: justify;
+	margin-top: 10px;
+	
+}
+/*header tin tức mới nhất*/
+#header {
+	background: #dd3333;
+	height: 40px;
+}
+#header h4 {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Sarabun', sans-serif;
+	font-weight: 700;
+	line-height: 40px;
+	padding-left: 10px;
+}
+
+.author a {
+	color: red;
+	text-decoration: none;
+	margin-right: 10px;
+	
+}
+.author {
+	font-size: 15px;
+}
+#para {
+	font-size: 15px;
+}
+.date  {
+	font-size: 15px;
+
+}
+.date i {
+	color: #3498db;
+}
+#title {
+	
+	font-size: 22px;
+	font-family: 'Sarabun', sans-serif;
+	font-weight: 700;
+}
+
+#picture {
+	width: 260px;
+	height: 185px;
+}
+
+.loadthem {
+    
+    margin-left: 300px;
+}
+
+.loadthem :hover {
+	color: white;
+	background: #dd3333;
+}
+
+
+.row.phananh {
+	height: 90px;
+
+}
+.phanchu {
+	
+	font-size: 15px;
+	font-family: 'Sarabun', sans-serif;
+	font-weight: 700;
+	line-height: 25px;
+	top: 0px;
+}
+.phanchu:hover {
+	color: #f70d28
+}
+
+a.carousel-control-prev {
+	top: 539px;
+	background: black;
+	width: 35px;
+	left: 120px;
+}
+
+.khoicuoi {
+	margin-bottom: 75px;
+}
+
+a.carousel-control-next {
+	top: 539px;
+	background: black;
+	width: 35px;
+	right: 120px;
+}
+
+
+.tieude {
+	background: #dd3333;
+	height: 40px;
+	margin-top: 65px;
+}
+
+.tieude h4 {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Sarabun', sans-serif;
+	font-weight: 700;
+	line-height: 40px;
+	padding-left: 10px;
+}
+
+
+.dongcung.dongcungroi {
+	position: fixed;
+	top: 0px;
+}
+
+.nutlen {
+    z-index: 3;
+    transition: 1s;
+    border-radius: 50%;
+    opacity:0;
+}
+.nutlen.hienthi{
+    opacity: 1;
+}
+
+

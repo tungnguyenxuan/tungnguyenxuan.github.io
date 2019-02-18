@@ -1,0 +1,302 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.link {
+	display: block;
+	overflow: hidden;
+	margin:0px;
+	background: white;
+	line-height: 32px;
+	padding-top: 5px;
+}
+
+.link li {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.link li a {
+	display: inline-block;
+	font-size: 14px;
+	color: #288ad6;
+	padding: 0 10px 0 0;
+}
+
+.danhgia {
+	color: #FBC02D;
+		  font-size: 13px;
+
+}
+
+
+
+ .swiper-container {
+      width: 100%;
+      height: 450px !important;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+
+      background-size: cover;
+      background-position: center;
+    }
+    .gallery-top {
+      height: 80%;
+      width: 100%;
+    }
+    .gallery-thumbs {
+      height: 120px !important;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+    .gallery-thumbs .swiper-slide {
+      height: 100%;
+      opacity: 0.7;
+    }
+    .gallery-thumbs .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+
+#gridCheck {
+	    width: 16px;
+    height: 16px;
+}
+
+#nut1 {
+	width: 440px;
+	height: 60px;
+}
+
+#nut1 h5 {
+	font-size: 18px;
+	font-family: 'Sarabun', sans-serif;
+	font-weight: 700;
+}
+
+#nut1 p {
+	padding-top: 0px;
+	font-size: 13px;
+	font-family: 'Sarabun', sans-serif;
+}
+
+#nut2 {
+
+	width: 220px;
+	height: 60px;
+}
+
+#nut2 h5 {
+	font-size: 18px;
+	font-family: 'Sarabun', sans-serif;
+	font-weight: 700;
+}
+
+#nut2 p {
+	padding-top: 0px;
+	font-size: 13px;
+	font-family: 'Sarabun', sans-serif;
+}
+
+
+.blog h6 {
+	margin-bottom: 10px;
+}
+.blog p {
+	text-align: justify;
+	margin-top: 10px;
+}
+
+#chuleave{
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-family: 'Sarabun', sans-serif;
+	font-weight: 700;
+} 
+#comment{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-family: 'Sarabun', sans-serif;
+	font-weight: 700;
+}
+
+.row.phananh {
+	height: 90px;
+
+}
+.phanchu {
+	
+	font-size: 18px;
+	font-family: 'Sarabun', sans-serif;
+	font-weight: 700;
+	line-height: 25px;
+	top: 0px;
+}
+.phanchu:hover {
+	color: #f70d28
+}
+
+.tieude h5 {
+	color: black;
+	font-size: 20px;
+	font-family: 'Sarabun', sans-serif;
+	font-weight: 700;
+	line-height: 40px;
+	padding-left: 10px;
+}
+.gia {
+	color: 	#e10c00;
+	font-weight: 700;
+	font-family: 'Sarabun', sans-serif;
+	font-size: 24px;
+}
+
+.nutlen {
+    z-index: 3;
+    transition: 1s;
+    border-radius: 50%;
+    opacity:0;
+}
+.nutlen.hienthi{
+    opacity: 1;
+}
+
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+}
+.comments-list .media{
+    border-bottom: 1px dotted #ccc;
+}
+.media {
+	position: relative;
+	margin-top: 15px;
+}
+#timeposted {
+	position: absolute;
+	right: 0px !important;
+	color: red;
+}
+#binhluan {
+	margin-left: 10px;
+}
+
+.number {
+	margin-top: 30px;
+    margin-bottom: 30px;
+	
+	font-size: 25px;
+	font-family: 'Sarabun', sans-serif; 
+	font-weight: 700;
+}
+
+
+
+#chats{
+    position: fixed;
+    bottom: 0;
+    right: 	0;
+    width: 100%;
+   
+    height: 400px;
+    opacity: 0;
+    transition: 1s;
+}
+
+#chats.hienthi {
+	opacity: 1;
+}
+
+#chats .chat-window{
+    position: absolute;
+    height: 100%;
+    padding: 0;
+    right: 	50px;
+    
+}
+
+#chats .chat-header{
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    background: #2F2F2F;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+
+#chats .chat-header a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+#chats .toHide{
+
+}
+
+#chats .chat-body{
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    bottom: 50px;
+    padding: 10px 10px 0 10px;
+    background: #dedede;
+    overflow-x: hidden;
+    font-size: 13px;
+}
+
+#chats .msg{
+    padding: 10px 0;
+    margin: 0;
+}
+
+#chats .msg div{
+    padding: 0;
+    height: 100%;
+    min-height: 50px;
+}
+
+#chats .msg .msg-text{
+    background: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 5px;
+}
+#chats .msg-text p{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+#chats .profile-pic img{
+    width: 50px;
+    height: 50px;
+}
+
+#chats .chat-footer{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 20px 0 20px;
+    border-top: #cccccc solid 1px;
+    background: #f5f5f5;
+}
+
+.icon {
+	position: absolute;
+	right: 	0px;
+	top: 	15px;
+}
+.chat-footer{
+	z-index: 1;
+}

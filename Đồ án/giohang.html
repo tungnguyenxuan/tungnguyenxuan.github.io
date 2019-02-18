@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Example </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Sarabun:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="swiper.css">	
+	<link rel="stylesheet" href="css/5.css">
+	
+	<link rel="stylesheet" href="css/1.css">
+	
+	
+	
+
+</head>
+
+<body  >
+
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top menutren">
+		<div class="container">
+
+			
+			<a class="navbar-brand logo" href="#"> <img src="images/32.png" alt="" class="img-fluid anhlogo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menutren">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="menutren">
+				<ul class="navbar-nav menuphai ">
+					<li class="nav-item">
+							<a class="nav-link" href="template.html">Trang chủ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="phone.html">Điện thoại</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="phone.html">Máy tính bảng</a>
+						</li>    
+						<li class="nav-item">
+							<a class="nav-link" href="new.html">Tin tức</a>
+						</li>   
+					<li class="nav-item">
+						<a class="nav-link btn btn-outline-danger nutmenu" href="#">Sign up free</a>
+					</li> 
+				</ul>
+			</div> 
+			
+
+		</div>
+	</nav> <!-- Hết menu -->
+
+
+	<!-- Nội dung thanh toán -->
+
+	
+
+	<div class="shopping-cart">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 wrap">
+					<ul class="breadcrumb">
+						<li><a href="template.html"><i class="fas fa-home"></i> Trang chủ</a></li>
+						<li class="	ml-3">Giỏ hàng</li>
+					</ul>
+				</div>
+
+				<div class="col-md-2"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 wrap">			
+					<div class="column-labels">
+						<label class="product-image">Sản phẩm</label>
+						
+						<label class="product-price">Giá</label>
+						<label class="product-quantity">Số lượng</label>
+						<label class="product-removal">Loại bỏ</label>
+						<label class="product-line-price">Tổng tiền</label>
+					</div>
+				</div>
+				<div class="col-md-2"></div>	
+			</div>
+
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 wrap pt-5">
+
+					<div class="product">
+						<div class="product-image">
+							<img src="images/17.jpg" class="img-fluid">
+							Samsung Galaxy S8 (2018)
+
+						</div>
+						
+						<div class="product-price">9.000.000</div>
+						<div class="product-quantity">
+							<input type="number" value="1" min="1">
+						</div>
+						<div class="product-removal">
+							<button class="remove-product">
+								Loại bỏ
+							</button>
+						</div>
+						<div class="product-line-price">9.000.000</div>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>		
+
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 wrap">
+
+					<div class="product">
+						<div class="product-image">
+							<img src="images/18.jpg" class="img-fluid">
+							Samsung Galaxy S9+ (2018)
+						</div>
+						
+						<div class="product-price">11.000.000</div>
+						<div class="product-quantity">
+							<input type="number" value="1" min="1">
+						</div>
+						<div class="product-removal">
+							<button class="remove-product">
+								Loại bỏ
+							</button>
+						</div>
+						<div class="product-line-price">11.000.000</div>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 wrap">
+
+					<div class="totals">
+						<div class="totals-item">
+							<label>Tiền hàng</label>
+							<div class="totals-value" id="cart-subtotal">20.000.000</div>
+						</div>
+						<div class="totals-item">
+							<label>Thuế (5%)</label>
+							<div class="totals-value" id="cart-tax">1.000.000</div>
+						</div>
+						<div class="totals-item">
+							<label>Tiền vận chuyển</label>
+							<div class="totals-value" id="cart-shipping">200.000</div>
+						</div>
+						<div class="totals-item totals-item-total">
+							<label>Tổng tiền</label>
+							<div class="totals-value" id="cart-total">21.200.000</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+
+		</div>	
+
+
+
+
+
+
+
+
+
+
+		<div class="container ">
+			<div class="row ">
+				<div class="col-md-2"></div>
+
+				<div class="col-md-8 wrap">
+					<div class="form-check form-check-inline mt-3">
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+						<label class="form-check-label" for="inlineRadio1">Anh</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+						<label class="form-check-label" for="inlineRadio2">Chị</label>
+					</div>
+
+					<form>
+						<div class="form-row mt-3">
+							<div class="form-group col-md-8">
+								<label for="inputEmail4">Họ và Tên</label>
+								<input type="email" class="form-control" id="inputEmail4" placeholder="Họ và tên">
+							</div>
+							<div class="form-group col-md-8">
+								<label for="inputPassword4">Só điện thoại</label>
+								<input type="password" class="form-control" id="inputPassword4" placeholder="Số điện thoại">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="inputAddress">Địa chỉ</label>
+							<input type="text" class="form-control" id="inputAddress" placeholder="Địa chỉ giao nhận">
+						</div>
+
+
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+							<label class="form-check-label" for="inlineRadio1">Giao hàng nhanh</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+							<label class="form-check-label" for="inlineRadio2">Giao hàng tiết kiệm</label>
+						</div>
+
+						<div class="nut">
+
+							<button type="button" class="btn btn-primary btn-lg mt-2" id="nut1"><h5>Thanh toán khi nhận hàng</h5>  </button>
+							<button type="button" class="btn btn-primary btn-lg mt-2 ml-3" id="nut2"><h5> Thanh toán online</h5></button>
+
+						</div>
+					</div>
+				</form>
+
+			</div>
+
+			<div class="col-sm-2"></div>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	<footer>
+
+		<div class="rowfoot mt-3 mb-1">
+
+			<div class="container ">
+
+
+				<div class="row ">
+
+					<div class="col-md-4 mt-4">
+						<h4>Thông tin liên lạc</h4>
+						<div class="colfoot mt-4">
+							<img src ="images/29.png" alt="" class="img-fluid float-left mr-2"><p>1800-1591-251</p>
+							<img src ="images/30.png" alt="" class="img-fluid float-left mr-2"><p> 8h - 22h</p>
+							<img src ="images/27.png" alt="" class="img-fluid float-left mr-2"><p>cskh@cellphones.com.vn</p>
+							<img src ="images/28.png" alt="" class="img-fluid float-left mr-2"><p>18 Nguyen Thi Dinh</p>
+							<p>Hai Ba Trung District, Ha Noi</p>
+						</div>
+					</div>
+					<div class="col-md-4 mt-4">
+						<h4>Thông tin hỗ trợ</h4>
+						<div class="colfoot mt-4">
+							<p>Tin công nghệ Sforum </p>
+							<p>Chính sách Bảo hành</p>
+							<p>Mua hàng từ xa</p>
+							<p>Tuyển dụng</p>
+						</div>	
+					</div>
+					<div class="col-md-4 mt-4">
+						<div class="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5008333814494!2d105.80125431540219!3d21.01263729370338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab5f8fde357b%3A0xf0a040c9b8af0b5a!2zMTggUGjhu5EgTmd1eeG7hW4gVGjhu4sgxJDhu4tuaCwgVHJ1bmcgSG_DoCwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1547536740344" width="400" height="300" frameborder="0" style="border:1 solid" allowfullscreen></iframe>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</footer>
+
+
+<!-- Link file thư viện jquery -->	
+<script src="jquery-3.3.1.js"></script>	
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript" src="swiper.js"></script>
+<script type="text/javascript" src="js/5.js"></script>
+</body>
+</html>
